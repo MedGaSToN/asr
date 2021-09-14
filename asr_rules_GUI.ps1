@@ -412,7 +412,7 @@ $btnDocs.Add_Click({
 
 $btnInfo = $Form.FindName("btnInfo")
 $btnInfo.Add_Click({
-    [System.Windows.Forms.MessageBox]::Show("Version 1.0 - 18th May 2020$([System.Environment]::NewLine)Created by Hermann Maurer $([System.Environment]::NewLine)Inspired by Antonio Vasconcelos","Info")
+    [System.Windows.Forms.MessageBox]::Show("Version 1.0","Info")
 })
 
 
